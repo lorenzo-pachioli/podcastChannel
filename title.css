@@ -1,0 +1,74 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 120px;
+  margin-left: 7%;
+}
+.title h1 {
+  font-family: "IBM Plex Sans";
+  font-size: 64px;
+  color: rgb(6, 10, 36);
+  height: 84px;
+}
+.blue_dot {
+  color: #0000ec;
+}
+.text {
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  color: rgb(6, 10, 36);
+  height: 48px;
+  margin-bottom: 56px;
+}
+.text_mobile {
+  visibility: hidden;
+  position: absolute;
+  top: 110px;
+  font-family: "IBM Plex Mono";
+  font-size: 14px;
+  color: #060a24;
+  line-height: 22px;
+}
+.text_mobile p {
+  width: 290px;
+}
+button {
+  height: 56px;
+  width: 226px;
+  background-color: #00f3bb;
+  font-family: "IBM Plex Mono";
+  font-weight: bolder;
+  font-size: 18px;
+  color: #060a24;
+  border-style: none;
+}
+button:hover {
+  background: linear-gradient(260deg, #219df0 0%, #23faa8 100%);
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    top: 29px;
+    padding-left: 16px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .title h1 {
+    font-size: 36px;
+    height: 90px;
+    width: 250px;
+  }
+  .text {
+    visibility: hidden;
+  }
+  .text_mobile {
+    visibility: visible;
+  }
+  .title button {
+    position: absolute;
+    height: 48px;
+    width: 90%;
+    top: 220px;
+  }
+}

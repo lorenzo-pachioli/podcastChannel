@@ -1,0 +1,56 @@
+.bottom-bar {
+  position: relative;
+  height: 95px;
+  width: 100%;
+  top: 1180px;
+}
+.bottom-bar div:first-child {
+  position: absolute;
+  top: 36px;
+  left: 7%;
+  font-family: "IBM Plex Mono", sans-serif;
+}
+.bottom-bar div:last-child {
+  position: absolute;
+  top: 36px;
+  left: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+.bottom-bar svg {
+  margin-right: 36px;
+  left: 0;
+  top: 0;
+  position: relative;
+}
+.bottom-bar svg:hover {
+  color: rgb(0, 243, 187);
+}
+.bottom-bar a {
+  display: flex;
+}
+.bottom-bar ul {
+  list-style: none;
+}
+@media screen and (max-width: 400px) {
+  .bottom-bar {
+    position: relative;
+    height: 121px;
+    top: 1300px;
+  }
+  .bottom-bar div:first-child {
+    position: absolute;
+    top: 24px;
+    left: 14.6%;
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 14px;
+    text-align: center;
+  }
+  .bottom-bar div:last-child {
+    position: absolute;
+    top: 62px;
+    left: 14.6%;
+    display: flex;
+    justify-content: space-around;
+  }
+}

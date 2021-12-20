@@ -1,0 +1,53 @@
+.podcast {
+  display: flex;
+  position: absolute;
+  top: 450px;
+  height: 1042.6px;
+  width: 100%;
+  background: linear-gradient(260deg, #0000ff 0%, hsl(240, 100%, 32%) 100%);
+  clip-path: polygon(100% 0, 100% 860px, 0 942.6px, 0 82.6px);
+}
+.podcast div:first-child {
+  position: absolute;
+  top: 130px;
+  left: 13.8%;
+  width: 209px;
+  height: 62px;
+  color: #ffffff;
+  font-size: 48px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bolder;
+}
+.episodios {
+  position: relative;
+  top: 220px;
+  /*left: 7%;*/
+}
+.episodios iframe {
+  margin-left: 72px;
+  margin-bottom: 72px;
+  width: 40.5%;
+  height: 232px;
+}
+@media screen and (max-width: 400px) {
+  .podcast {
+    top: 364px;
+    clip-path: polygon(100% 0, 100% 1168.5px, 0 1203.5px, 0 35px);
+    height: 1203.5px;
+  }
+  .podcast div:first-child {
+    left: 16px;
+    font-size: 36px;
+    height: 42px;
+    top: 60px;
+  }
+  .episodios iframe {
+    width: 93%;
+    margin-bottom: 11px;
+    margin-left: 0;
+  }
+  .episodios {
+    padding-left: 16px;
+    top: 135px;
+  }
+}

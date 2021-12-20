@@ -1,0 +1,43 @@
+.novedades {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  top: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  clip-path: polygon(100% 0, 100% 418px, 0 418px, 0 90px);
+  background: linear-gradient(260deg, #0000ff 0%, #0000a3 100%);
+}
+.novedades h2 {
+  position: absolute;
+  color: #ffffff;
+  top: 160px;
+}
+.novedades button {
+  position: absolute;
+  width: 345px;
+  height: 56px;
+  top: 240px;
+}
+
+@media screen and (max-width: 400px) {
+  .novedades {
+    top: 1350px;
+    clip-path: polygon(100% 0, 100% 341px, 0 341px, 0 40px);
+  }
+  .novedades h2 {
+    top: 64px;
+    width: 288px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .novedades button {
+    width: 90%;
+    height: 56px;
+    top: 226px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

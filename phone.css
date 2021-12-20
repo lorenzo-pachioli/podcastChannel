@@ -1,0 +1,70 @@
+.phone {
+  position: relative;
+  top: 970px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.phone .img {
+  width: 31.7%;
+  height: 660px;
+  display: flex;
+}
+h2 {
+  font-family: "IBM Plex Sans";
+  font-size: 48px;
+  color: #060a24;
+}
+
+.parrafo {
+  top: 20px;
+  font-family: "IBM Plex Mono";
+  font-size: 16px;
+  color: #060a24;
+  line-height: 24px;
+}
+.phone div:last-child {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+}
+
+.phone p {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .phone {
+    top: 1280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .phone .img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+  }
+  .phone img {
+    width: 100%;
+  }
+  .phone div:last-child {
+    width: 100%;
+    padding: 7%;
+  }
+  .phone h2 {
+    font-size: 36px;
+    line-height: 42px;
+    top: 0;
+  }
+  .parrafo {
+    top: 560px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
