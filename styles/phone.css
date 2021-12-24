@@ -39,6 +39,7 @@ h2 {
   .phone {
     top: 1280px;
     width: 100vw;
+    margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -55,17 +56,22 @@ h2 {
   }
   .phone div:last-child {
     width: 90vw;
-    padding: 7%;
+    padding: 0;
   }
   .phone h2 {
     font-size: 36px;
     line-height: 42px;
     top: 0;
+    margin-bottom: 4vh;
   }
   .parrafo {
     top: 560px;
     font-size: 14px;
     line-height: 22px;
+    width: 90vw;
+  }
+  .phone p {
+    
     width: 90vw;
   }
 }
