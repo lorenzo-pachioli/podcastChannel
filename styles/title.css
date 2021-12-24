@@ -31,7 +31,7 @@
   line-height: 22px;
 }
 .text_mobile p {
-  width: 290px;
+  width: 75vw;
 }
 button {
   height: 56px;
@@ -51,7 +51,7 @@ button:hover {
   .title {
     top: 29px;
     padding-left: 16px;
-    width: 100%;
+    width: 100vw;
     margin-left: 0;
   }
   .title h1 {
@@ -68,7 +68,7 @@ button:hover {
   .title button {
     position: absolute;
     height: 48px;
-    width: 90%;
+    width: 90vw;
     top: 220px;
   }
 }

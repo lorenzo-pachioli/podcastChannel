@@ -17,9 +17,9 @@
 }
 .menu {
   position: absolute;
+  display:block;
   height: 28px;
   width: 35%;
-  /*left: 59.5%;*/
   right: 7%;
   top: 26px;
 }
@@ -93,7 +93,7 @@ input {
 .sub_menu a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  width: 100%;
+  width: 100vw;
   height: 56px;
   padding: 16px;
 }
@@ -103,14 +103,15 @@ input {
 
 @media screen and (max-width: 1000px) {
   .menu {
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
   }
   svg:active {
     color: rgb(0, 243, 187);
   }
   .top_bar {
     height: 44px;
-    width: 100%;
+    width: 100vw;
   }
   #logo {
     left: 16px;
