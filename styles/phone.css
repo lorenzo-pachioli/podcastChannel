@@ -32,7 +32,7 @@ h2 {
 
 .phone p {
   margin-bottom: 15px;
-  width: 100%;
+  width: 100vw;
 }
 
 @media screen and (max-width: 1000px) {
@@ -47,14 +47,14 @@ h2 {
   .phone .img {
     display: flex;
     align-items: center;
-    width: 100vw;
+    width: 90vw;
     top: 0;
   }
   .phone img {
-    width: 100vw;
+    width: 90vw;
   }
   .phone div:last-child {
-    width: 100vw;
+    width: 90vw;
     padding: 7%;
   }
   .phone h2 {
