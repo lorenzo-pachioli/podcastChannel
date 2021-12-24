@@ -32,7 +32,7 @@
 .bottom-bar ul {
   list-style: none;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .bottom-bar {
     position: relative;
     height: 121px;

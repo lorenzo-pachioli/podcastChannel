@@ -39,7 +39,7 @@
   text-align: center;
   width: 130%;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .temas {
     top: 1350px;
     left: 0;

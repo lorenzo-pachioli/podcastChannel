@@ -29,7 +29,7 @@
   width: 40.5%;
   height: 232px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .podcast {
     top: 364px;
     clip-path: polygon(100% 0, 100% 1168.5px, 0 1203.5px, 0 35px);

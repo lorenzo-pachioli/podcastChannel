@@ -1,7 +1,7 @@
 .phone {
   position: relative;
   top: 970px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -27,7 +27,7 @@ h2 {
 .phone div:last-child {
   display: flex;
   flex-direction: column;
-  width: 430px;
+  width: 41.2vw;
 }
 
 .phone p {
@@ -35,10 +35,10 @@ h2 {
   width: 100%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .phone {
     top: 1280px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,14 +47,14 @@ h2 {
   .phone .img {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     top: 0;
   }
   .phone img {
-    width: 100%;
+    width: 100vw;
   }
   .phone div:last-child {
-    width: 100%;
+    width: 100vw;
     padding: 7%;
   }
   .phone h2 {

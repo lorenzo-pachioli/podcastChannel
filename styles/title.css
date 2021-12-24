@@ -47,7 +47,7 @@ button:hover {
   background: linear-gradient(260deg, #219df0 0%, #23faa8 100%);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .title {
     top: 29px;
     padding-left: 16px;
